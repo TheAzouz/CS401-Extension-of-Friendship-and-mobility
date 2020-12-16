@@ -21,7 +21,23 @@ Secondly, we will try to find place checkin patterns : we will study the places 
 We begin by getting the probability of distribution for two different datasets : dataset where we take into account all the checkins and dataset where we only study checkins made with friends. 
 In both cases, we only study users who checked in at least once in their homes and assume their home is located at the average of checkins labeled with home `Home (private)`. 
 We plot (loglog) the distribution for both datasets as a function from the distance from home and try to describe the case where a user only moves to meet friends with a function of the type : $ax^b$
-#################   PHOTO OF PLOT   ###########################  
+#################   PHOTO OF PLOT   ###########################   
+From the plot above, we can draw some conclusions :
+- After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis as a function of the distance from home:
+$$ P(x)=
+\begin{cases}
+    0.1e^{-0.44x} & \text{if x<20 km}\\
+    0.35e^{-1.3x} & \text{otherwise}
+\end{cases}
+$$
+- We notice a change in the slope at a distance of approximately 20km distance from home. This behavior is similar to the one described in the paper 'Friendship and Mobility: User Movement In Location-Based Social Networks' (figure 1).  
+However : 
+  - The distance from home where the shift happened is different (20km here vs 100km in the paper)  
+  - The slope are different than the ones described in the paper. In fact, while the slope is smaller for small distances in the paper (-1.9 < -0.9), the behaviour is different in our study (-0.44 > -1.3)
+- Finally, we notice in the plots that whether a user visited a friend or not does not make much differences in the overall behavior of checkins. 
+We make the hypothesis that the behavior is the same and we test it. The null hypothesis is that friends don't have any influence on a user's movement.  
+After confirming that our data distribution is not normal (using a Kolmogorov Smirnov test), we use a Wilcoxon test to check whether friends have influence or not on the movement of a people. The result is interesting : having found a p-value of 0.0, we strongly reject the hypothesis and we conclude that even if the general behavior seems the same, the quantitative results show the contary.
+### 2) Place checkin patterns :
 
 
 

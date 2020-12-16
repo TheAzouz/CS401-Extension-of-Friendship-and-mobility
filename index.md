@@ -8,9 +8,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+$
 \begin{equation}
 P_{\lambda} = cos(\lambda)*P_{Earth}
 \end{equation}
+$
 
 Syntax highlighted code block
 

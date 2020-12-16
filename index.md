@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 # **Header 1**  
 # **Header 2**  
-# **III) Checkin pattern between friends:**  
+# **III) Checkin patterns between friends:**  
 In this part, we seek to finding some meeting patterns between friends. We say two friends have met if they checked in the same place with at most one hour difference.  
 We will do three tasks in this part : 
 - Firstly, we will try to find the distribution of checkins as a function of the distance from home and compare two cases : case where users checkin with a friend a the general case where users check in not taking into account friends.
@@ -40,13 +40,30 @@ After confirming that our data distribution is not normal (using a Kolmogorov Sm
 - To be able to find place patterns, we categorize our dataset:
     - places into different types : `Eat` ,`Study` , `Drink`,`Culture`,`Home`, `Move`,`Consume`,`Work`,`Entertain`,`Sport`  
     - day of the week into two types : `Working days`,`Week end day`
-    - time of the day : `day`,`night`
+    - time of the day : `day`: ,`night`
 - Then, we will study the probability that people meet in different places as a function of:
     - Time of the day
     - Day of the week
 ### i) Day of the week checkin patterns
-- After computing the probability for checking in a certain place as a function of the day type, we conclude that people are the most likely to be studying. 
-- Then 
+- After computing the probability for checking in a certain place as a function of the day type, we conclude that people are the most likely to be studying. This observation can be explained by the fact that students are the most likely to use sociaal media, so the most number of checkins can be found among students.
+- Then, to be able to draw further conclusions, we do some processing to our results:
+    - Get probability/day :
+        -Divide probabilities that happened in work day by 5
+        -Divide probabilities that happened in week end day by 2
+    - Get ratio of results found
+    - The final equation we find for each place is :
+    $$
+    final ratio = \frac{\frac{P_{workday}}{5}-\frac{P_{workend}}{2}}{\frac{P_{weekday}}{5}}
+    $$
+- In the end:  
+    - If this difference is positive : people are more likely to checkin in the place in a working day  
+    - If this difference is negative : people are more likely to checkin in the place in a week end day  
+    - The absolute value gives us the magnitude of the absolute ratio
+####################################   GRAPH 2 #############################################
+IIIIIIIIIIIIIIINNNNNNNNNNNTTTTTTTTTTTTEEEEEEEEEEEERRRRRRRRRRRRRRRPPPPPPPPPPPEEEEEEEERRRRRRTTTTTTTTAAAAAAAAATTTTTTTIIIIIIOOOOOOONNNNNN
+
+### ii) Period of the day checkin patterns:
+- Now we move to studying the times of the day friends are the most likely to meet : 
 
 
 

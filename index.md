@@ -43,7 +43,14 @@ However :
 We make the hypothesis that the behavior is the same and we test it. The null hypothesis is that friends don't have any influence on a user's movement.  
 After confirming that our data distribution is not normal (using a Kolmogorov Smirnov test), we use a Wilcoxon test to check whether friends have influence or not on the movement of a people. The result is interesting : having found a p-value of 0.0, we strongly reject the hypothesis and we conclude that even if the general behavior seems the same, the quantitative results show the contary.
 ### 2) Place checkin patterns :
-
+- For the two remaining parts, we will only be working with the dataset containing only checkins with friends. We make this choice because the goal of the paper is to predict mobility and see the influence of friends.
+- To be able to find place patterns, we categorize our dataset:
+    - places into different types : `Eat` ,`Study` , `Drink`,`Culture`,`Home`, `Move`,`Consume`,`Work`,`Entertain`,`Sport`  
+    - day of the week into two types : `Working days`,`Week end day`
+    - time of the day : `day`,`night`
+- Then, we will study the probability that people meet in different places as a function of:
+    - Time of the day
+    - Day of the week
 
 
 - Bulleted

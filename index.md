@@ -17,7 +17,7 @@ We will do three tasks in this part :
 We begin by getting the probability of distribution for two different datasets : dataset where we take into account all the checkins and dataset where we only study checkins made with friends. 
 In both cases, we only study users who checked in at least once in their homes and assume their home is located at the average of checkins labeled with home `Home (private)`. 
 We plot (loglog) the distribution for both datasets as a function from the distance from home and try to describe the case where a user only moves to meet friends with a function of the type : $ax^b$
-#################   PHOTO OF PLOT   ###########################   
+#################   GRAPH1   ###########################   
 From the plot above, we can draw some conclusions :
 - After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis as a function of the distance from home:
 $$ P(x)=
@@ -40,12 +40,15 @@ After confirming that our data distribution is not normal (using a Kolmogorov Sm
 - To be able to find place patterns, we categorize our dataset:
     - places into different types : `Eat` ,`Study` , `Drink`,`Culture`,`Home`, `Move`,`Consume`,`Work`,`Entertain`,`Sport`  
     - day of the week into two types : `Working days`,`Week end day`
-    - time of the day : `day`: ,`night`
+    - time of the day : `day` (between 5h and 17h): ,`night` (between 17h and 5h)
 - Then, we will study the probability that people meet in different places as a function of:
     - Time of the day
     - Day of the week
 ### i) Day of the week checkin patterns
-- After computing the probability for checking in a certain place as a function of the day type, we conclude that people are the most likely to be studying. This observation can be explained by the fact that students are the most likely to use sociaal media, so the most number of checkins can be found among students.
+#################### graph 2 ########################
+- After computing the probability for checking in a certain place as a function of the day type, we conclude that people are the most likely to be studying. 
+This observation can be explained by the fact that students are the most likely to use sociaal media, so the most number of checkins can be found among students.
+
 - Then, to be able to draw further conclusions, we do some processing to our results:
     - Get probability/day :
         -Divide probabilities that happened in work day by 5
@@ -59,13 +62,24 @@ After confirming that our data distribution is not normal (using a Kolmogorov Sm
     - If this difference is positive : people are more likely to checkin in the place in a working day  
     - If this difference is negative : people are more likely to checkin in the place in a week end day  
     - The absolute value gives us the magnitude of the absolute ratio
-####################################   GRAPH 2 #############################################
-IIIIIIIIIIIIIIINNNNNNNNNNNTTTTTTTTTTTTEEEEEEEEEEEERRRRRRRRRRRRRRRPPPPPPPPPPPEEEEEEEERRRRRRTTTTTTTTAAAAAAAAATTTTTTTIIIIIIOOOOOOONNNNNN
-
+####################################   GRAPH 3 #############################################  
+- After observing the figure, we conclude that people tend to meet their friends more in work or study places during the week. This can be explained by the fact that people usually have their coworkers and classmates as friends on social media. Studying or working is part of people's obligations and these are task are generally proceeded during the week
+- However, when it comes to free time (week end for most of people), people choose to meet their friends in diverting places (every other category that doesn't involve working or studying). Specifically, people are the most likely to go out in weekend to have drinks or to entertainement places.
+- Finally, people tend to spend their day working and studying, and then spend their evening and night in diverting places (eating, having drinks)
 ### ii) Period of the day checkin patterns:
-- Now we move to studying the times of the day friends are the most likely to meet : 
-
-
+- Now we move to studying the times of the day friends are the most likely to meet.
+####################################   GRAPH 4 #############################################
+We first notice that :
+    - The biggest probability of checking in with friends during day occurs during studying
+    - The biggest probability of checking in with friends during night occurs during night.
+- Then, we do a similar processing work than the one we did in the previous part : we compute the ratio of checkins in day or at night.  
+We use the equation below to compute the ratios:
+$$
+final ratio = \frac{P_{daycheckin}-P_{nightcheckin}}{P_{daycheckin}}
+$$
+################################## GRAPH 5 ##########################################  
+- We can see that friends are more likely to meet during the day to study or work. Moreover, they are more likely to meet at night to have night, even if the difference is small.
+- We can also conlude that most checkins happen to be during the day and that people tend less to checkin at night. 
 
 
 **Bold** and _Italic_ and `Code` text

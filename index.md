@@ -4,27 +4,15 @@ You can use the [editor on GitHub](https://github.com/TheAzouz/Project_ADA.githu
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-$
-\begin{equation}
-P_{\lambda} = cos(\lambda)*P_{Earth}
-\end{equation}
-$
-
-Syntax highlighted code block
-
-**# Header 1**  
-**# Header 2**  
-**# III) Checkin pattern between friends:**  
+# **Header 1**  
+# **Header 2**  
+# **III) Checkin pattern between friends:**  
 In this part, we seek to finding some meeting patterns between friends. We say two friends have met if they checked in the same place with at most one hour difference.  
 We will do three tasks in this part : 
 - Firstly, we will try to find the distribution of checkins as a function of the distance from home and compare two cases : case where users checkin with a friend a the general case where users check in not taking into account friends.
 - Secondly, we will try to find place checkin patterns : we will study the places where friends meet, and how likely some friends are to meet in a certain place depending on the whether it s a work day or week end day. Then, we will study the distribution of checkins in places depending on the time of the day (day or night).  
 
-*## 1) Checkin patterns and ditribution :*  
+## *1) Checkin patterns and ditribution :*  
 
 We begin by getting the probability of distribution for two different datasets : dataset where we take into account all the checkins and dataset where we only study checkins made with friends. 
 In both cases, we only study users who checked in at least once in their homes and assume their home is located at the average of checkins labeled with home `Home (private)`. 
@@ -46,7 +34,7 @@ However :
 We make the hypothesis that the behavior is the same and we test it. The null hypothesis is that friends don't have any influence on a user's movement.  
 After confirming that our data distribution is not normal (using a Kolmogorov Smirnov test), we use a Wilcoxon test to check whether friends have influence or not on the movement of a people. The result is interesting : having found a p-value of 0.0, we strongly reject the hypothesis and we conclude that even if the general behavior seems the same, the quantitative results show the contary.
 
-*## 2) Place checkin patterns :*  
+## *2) Place checkin patterns :*  
 
 - For the two remaining parts, we will only be working with the dataset containing only checkins with friends. We make this choice because the goal of the paper is to predict mobility and see the influence of friends.
 - To be able to find place patterns, we categorize our dataset:
@@ -57,7 +45,8 @@ After confirming that our data distribution is not normal (using a Kolmogorov Sm
     - Time of the day
     - Day of the week
 ### i) Day of the week checkin patterns
-
+- After computing the probability for checking in a certain place as a function of the day type, we conclude that people are the most likely to be studying. 
+- Then 
 
 
 

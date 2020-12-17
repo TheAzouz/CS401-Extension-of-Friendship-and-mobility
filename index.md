@@ -80,7 +80,8 @@ From the plot above, we can draw some conclusions :
       -Divide probabilities that happened in work day by 5 -Divide probabilities that happened in week end day by 2
     - Get ratio of results found
     - The final equation we find for each place is :
-      $$ final ratio = \frac{\frac{P_{workday}}{5}-\frac{P_{workend}}{2}}{\frac{P_{weekday}}{5}} $$
+    ![](/assets/latex-selim1.png)
+
 - In the end:
     - If this difference is positive : people are more likely to checkin in the place in a working day
     - If this difference is negative : people are more likely to checkin in the place in a week end day
@@ -109,12 +110,7 @@ From the plot above, we can draw some conclusions :
 - Then, we do a similar processing work than the one we did in the previous part : we compute the ratio of checkins in
   day or at night.  
   We use the equation below to compute the ratios:  
-                     P           - P               
-                      daycheckin    nightcheckin   
-  $$ final ratio  =  --------------------------- $$
-                             P                     
-                              daycheckin           
-
+![](/assets/latex-selim2.png)
 
 ![](/assets/img5-selim.png)
 

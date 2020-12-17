@@ -1,7 +1,7 @@
 ![yep](/assets/too-busy-coding.jpeg)
 
-<img align="center" src="assets/too-busy-coding.jpeg">
-
+ <div style="text-align:center"><img src="/assets/too-busy-coding.jpeg" /></div>
+ 
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/TheAzouz/Project_ADA.github.io/edit/gh-pages/index.md) to maintain

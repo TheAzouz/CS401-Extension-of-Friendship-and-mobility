@@ -1,8 +1,6 @@
----
-mathjax : true
----
-
 ![yep](/assets/too-busy-coding.jpeg)
+
+<div style="text-align:center"><img src="/assets/too-busy-coding.jpeg" /></div>.
 
 ## Welcome to GitHub Pages
 

@@ -1,4 +1,4 @@
-$$ P(x)= \begin{cases} 0.1e^{-0.44x} & \text{if x<20 km}\ 0.35e^{-1.3x} & \text{otherwise} \end{cases} $$
+![yep]({{site.url}}/assets/too-busy-coding.jpeg)
 
 ## Welcome to GitHub Pages
 

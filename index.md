@@ -1,4 +1,4 @@
-![yep]({{site.url}}/assets/too-busy-coding.jpeg)
+![yep](/assets/too-busy-coding.jpeg)
 
 ## Welcome to GitHub Pages
 

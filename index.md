@@ -33,7 +33,7 @@ in at least once in their homes and assume their home is located at the average 
 home `Home (private)`. We plot (loglog) the distribution for both datasets as a function from the distance from home and
 try to describe the case where a user only moves to meet friends with a function of the type : $ax^b$
 
-![](img1-selim.png)
+![](/assets/img1-selim.png)
 From the plot above, we can draw some conclusions :
 
 - After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis
@@ -69,7 +69,7 @@ From the plot above, we can draw some conclusions :
 
 ### i) Day of the week checkin patterns
 
-![](img2-selim.png)
+![](/assets/img2-selim.png)
 
 - After computing the probability for checking in a certain place as a function of the day type, we conclude that people
   are the most likely to be studying. This observation can be explained by the fact that students are the most likely to
@@ -86,7 +86,7 @@ From the plot above, we can draw some conclusions :
     - If this difference is negative : people are more likely to checkin in the place in a week end day
     - The absolute value gives us the magnitude of the absolute ratio
 
-![](img3-selim.png)
+![](/assets/img3-selim.png)
 
 - After observing the figure, we conclude that people tend to meet their friends more in work or study places during the
   week. This can be explained by the fact that people usually have their coworkers and classmates as friends on social
@@ -101,7 +101,7 @@ From the plot above, we can draw some conclusions :
 
 - Now we move to studying the times of the day friends are the most likely to meet.
 
-![](img4-selim.png)
+![](/assets/img4-selim.png)
 
 - We first notice that :
     - The biggest probability of checking in with friends during day occurs during studying
@@ -111,7 +111,7 @@ From the plot above, we can draw some conclusions :
   We use the equation below to compute the ratios:
   $$ final ratio = \frac{P_{daycheckin}-P_{nightcheckin}}{P_{daycheckin}} $$
 
-![](img5-selim.png)
+![](/assets/img5-selim.png)
 
 - We can see that friends are more likely to meet during the day to study or work. Moreover, they are more likely to
   meet at night to have night, even if the difference is small.

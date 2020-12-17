@@ -79,13 +79,13 @@ From the plot above, we can draw some conclusions :
     - Get probability/day :
       -Divide probabilities that happened in work day by 5 -Divide probabilities that happened in week end day by 2
     - Get ratio of results found
-    - The final equation we find for each place is :
-    ![](/assets/latex-selim1.png)
+    - The final equation we find for each place is :  
+![](/assets/latex-selim1.jpg)
 
 - In the end:
     - If this difference is positive : people are more likely to checkin in the place in a working day
     - If this difference is negative : people are more likely to checkin in the place in a week end day
-    - The absolute value gives us the magnitude of the absolute ratio
+    - The absolute value gives us the magnitude of the absolute ratio  
 
 ![](/assets/img3-selim.png)
 
@@ -100,7 +100,7 @@ From the plot above, we can draw some conclusions :
 
 ### ii) Period of the day checkin patterns:
 
-- Now we move to studying the times of the day friends are the most likely to meet.
+- Now we move to studying the times of the day friends are the most likely to meet.  
 
 ![](/assets/img4-selim.png)
 
@@ -110,7 +110,7 @@ From the plot above, we can draw some conclusions :
 - Then, we do a similar processing work than the one we did in the previous part : we compute the ratio of checkins in
   day or at night.  
   We use the equation below to compute the ratios:  
-![](/assets/latex-selim2.png)
+![](/assets/latex-selim2.jpg)
 
 ![](/assets/img5-selim.png)
 

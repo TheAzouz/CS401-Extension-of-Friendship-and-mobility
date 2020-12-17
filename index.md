@@ -1,3 +1,5 @@
+$$ P(x)= \begin{cases} 0.1e^{-0.44x} & \text{if x<20 km}\ 0.35e^{-1.3x} & \text{otherwise} \end{cases} $$
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/TheAzouz/Project_ADA.github.io/edit/gh-pages/index.md) to maintain

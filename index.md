@@ -108,8 +108,13 @@ From the plot above, we can draw some conclusions :
     - The biggest probability of checking in with friends during night occurs during night.
 - Then, we do a similar processing work than the one we did in the previous part : we compute the ratio of checkins in
   day or at night.  
-  We use the equation below to compute the ratios:
-  $$ final ratio = \frac{P_{daycheckin}-P_{nightcheckin}}{P_{daycheckin}} $$
+  We use the equation below to compute the ratios:  
+                     P           - P               
+                      daycheckin    nightcheckin   
+  $$ final ratio  =  --------------------------- $$
+                             P                     
+                              daycheckin           
+
 
 ![](/assets/img5-selim.png)
 

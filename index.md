@@ -1,6 +1,6 @@
 ![yep](/assets/too-busy-coding.jpeg)
 
- <div style="text-align:center"><img src="/assets/too-busy-coding.jpeg" /></div>
+<img src="assets/too-busy-coding.jpeg" alt="idk" class="center"> 
  
 ## Welcome to GitHub Pages
 

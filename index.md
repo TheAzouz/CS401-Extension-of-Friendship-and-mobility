@@ -1,3 +1,7 @@
+---
+mathjax : true
+---
+
 ![yep](/assets/too-busy-coding.jpeg)
 
 ## Welcome to GitHub Pages

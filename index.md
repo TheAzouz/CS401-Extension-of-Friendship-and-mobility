@@ -1,6 +1,6 @@
 ![yep](/assets/too-busy-coding.jpeg)
 
-<img align="center" src="/assets/too-busy-coding.jpeg">
+<img align="center" src="assets/too-busy-coding.jpeg">
 
 ## Welcome to GitHub Pages
 

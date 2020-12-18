@@ -31,14 +31,14 @@ We begin by getting the probability of distribution for two different datasets :
 the checkins and dataset where we only study checkins made with friends. In both cases, we only study users who checked
 in at least once in their homes and assume their home is located at the average of checkins labeled with
 home `Home (private)`. We plot (loglog) the distribution for both datasets as a function from the distance from home and
-try to describe the case where a user only moves to meet friends with a function of the type : $ax^b$
+try to describe the case where a user only moves to meet friends with a function of the type : ![](/assets/latex-selim.png)
 
 ![](/assets/img1-selim.png)
 From the plot above, we can draw some conclusions :
 
 - After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis
-  as a function of the distance from home:
-  $$ P(x)= \begin{cases} 0.1e^{-0.44x} & \text{if x<20 km}\\ 0.35e^{-1.3x} & \text{otherwise} \end{cases} $$
+  as a function of the distance from home:  
+![](/assets/latex0-selim.png)
 - We notice a change in the slope at a distance of approximately 20km distance from home. This behavior is similar to
   the one described in the paper 'Friendship and Mobility: User Movement In Location-Based Social Networks' (figure 1)
   .  

@@ -4,7 +4,7 @@
 
 ## Overview of files :
 - `data` : folder containing all the data we worked with
-- friends_checkin_patterns.ipynb : file where we study friends meet up patterns (spatial and temporal patterns)
+- `friends_checkin_patterns.ipynb` : file where we study friends meet up patterns (spatial and temporal patterns)
 - ....... .ipynb :
 - ....... .ipynb :
 

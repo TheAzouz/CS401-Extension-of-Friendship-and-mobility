@@ -32,3 +32,11 @@ and places under `data/`.
 Our code uses the standard Conda packages. In addition, we use [pandarellel](https://pypi.org/project/pandarallel/),
 [networkX](https://networkx.org/), [sklearn](https://scikit-learn.org/stable/), [keras](https://keras.io/)
 , [scipy](https://www.scipy.org/) and [imblearn](https://pypi.org/project/imblearn/)
+
+## Group Members Contribution:
+
+Each member focused mainly on:
+- Ayman: testing the methods.
+- Selim: patterns in friends meetups
+- Rami: Explore machine learning methods
+There was also a lot of contribution in one another's notebooks to make the work evenly spread between team members.

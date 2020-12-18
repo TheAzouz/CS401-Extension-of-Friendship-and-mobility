@@ -1,9 +1,6 @@
 ---
-title: Ras_A_Ras
+title: Applied Data Analysis (ADA) - extensionn of the paper `friendship and mobility user movement in location-based social networks` 
 ---
-
-<p style="text-align:center;"><img src="assets/too-busy-coding.jpeg" alt="Logo"></p>
-
 # **I - Discretization Testing:**
 
 In this part, we will test the performance of the home localization method proposed by the paper. We will compute the

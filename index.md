@@ -2,26 +2,6 @@
 title: Applied Data Analysis (ADA) - extensionn of the paper `friendship and mobility user movement in location-based social networks` 
 ---
 
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.img-container {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
-
 # **I - Discretization Testing:**
 
 In this part, we will test the performance of the home localization method proposed by the paper. We will compute the
@@ -66,7 +46,7 @@ this does not apply to Foursquare dataset. Indeed, we need to tolerate distances
 In the following section, we will try to use Machine Learning methods to find the homes of users, and we will compare our
 solution to the method proposed by the paper in terms of performance on the same dataset.
 
-# **Home locations predictions**
+# **II - Home locations predictions**
 
 ## *1 - Method:*
 
@@ -97,16 +77,11 @@ We build a SVMC model, a Neural Network NN and a random forest classifier and co
 
 ## *iii - Prediction testing:*
 
-<div class="clearfix">
-  <div class="img-container">
-  <img src="assets/part1/prediction_test.png" style="width:50%">
-  </div>
-  <div class="img-container">
-  <img src="assets/part1/prediction_test_CDF.png" style="width:50%">
-  </div>
-</div>
+We see that our prediction does not perform as expected. Indeed, the probability of large distances is quite high. as we can see by the plot below.
 
 <p style="text-align:center;"><img src="assets/part1/prediction_test.png" style="width: 50%"/></p>
+
+We can even see that it performs worse than the method proposed by the paper. In fact, to reach a 85% accuracy, we must tolerate distances up to 12'977km.
 
 <p style="text-align:center;"><img src="assets/part1/prediction_test_CDF.png" style="width: 50%"/></p>
 

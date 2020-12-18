@@ -1,6 +1,27 @@
 ---
 title: Applied Data Analysis (ADA) - extensionn of the paper `friendship and mobility user movement in location-based social networks` 
 ---
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+
 # **I - Discretization Testing:**
 
 In this part, we will test the performance of the home localization method proposed by the paper. We will compute the

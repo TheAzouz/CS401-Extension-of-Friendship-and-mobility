@@ -1,3 +1,7 @@
+---
+title: hello
+---
+
 ![yep](assets/too-busy-coding.jpeg)
 
 <p style="text-align:center;"><img src="assets/too-busy-coding.jpeg" alt="Logo"></p>

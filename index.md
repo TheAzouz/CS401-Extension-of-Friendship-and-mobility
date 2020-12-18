@@ -62,10 +62,9 @@ From the plot above, we can draw some conclusions :
 - For the two remaining parts, we will only be working with the dataset containing only checkins with friends. We make
   this choice because the goal of the paper is to predict mobility and see the influence of friends.
 - To be able to find place patterns, we categorize our dataset:
-    - places into different types : `Eat` ,`Study` , `Drink`,`Culture`,`Home`, `Move`,`Consume`,`Work`,`Entertain`
-      ,`Sport`
-    - day of the week into two types : `Working days`,`Week end day`
-    - time of the day : `day` (between 5h and 17h): ,`night` (between 17h and 5h)
+    - places into different types : `Eat`, `Study`, `Drink`, `Culture`, `Home`, `Move`, `Consume`, `Work`, `Entertain`, `Sport`
+    - day of the week into two types : `Working days`, `Week end day`
+    - time of the day : `day` (between 5h and 17h) and `night` (between 17h and 5h)
 - Then, we will study the probability that people meet in different places as a function of:
     - Time of the day
     - Day of the week

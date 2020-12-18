@@ -28,7 +28,7 @@ in at least once in their homes and assume their home is located at the average 
 home `Home (private)`. We plot (loglog) the distribution for both datasets as a function from the distance from home and
 try to describe the case where a user only moves to meet friends with a function of the type :  
 <p style="text-align:center;"><img src="assets/part3/latex-selim.jpg" style="width: 70%; height: 70%"/></p>
-
+We now move to the visualisation
 <p style="text-align:center;"><img src="assets/part3/img1-selim.png" style="width: 90%; height: 80%"/></p>
 
 From the plot above, we can draw some conclusions :

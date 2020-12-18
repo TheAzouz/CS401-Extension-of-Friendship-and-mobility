@@ -52,11 +52,11 @@ solution to the method proposed by the paper in terms of performance on the same
 
 ## *1 - Method:*
 
-### *1 - Feature engineering 
+### *1 - Feature engineering:*
 
 In order to predict users' home location, we based our work on the paper `Fine-scale prediction of people's home location using social media footprints` by H.Kavak et al. They used DBSCAN unsupervised density-based clustring algorithm which creates clusters of points that can be connected to each other within a given radius. The clustering is performed on each user's check-ins. This is equivalent to the discretization approach done in Friendship and Mobility paper. 
 
-Later, authors created the following mobilitiy features for each cluster:
+Later, the authors created the following mobilitiy features for each cluster:
 
 - Checkin Ratio (CR): It's the ratio of check-ins per cluster
 - Checkin During Midnight (MR): In this feature, we consider only the checkins between 00 am and 5 am and compute the checkin ratio per cluster
@@ -64,6 +64,11 @@ Later, authors created the following mobilitiy features for each cluster:
 - Last Checkin with inactive midnight: Similarely to the previous feature with the exception that we drop the last checkin if it is after midnight
 - PageRank and ReversePageRank:  These features measure the importance of cluster based on the time made between each transition.
 
+After creating these feature for each cluster, we label each cluster with the most home tags as a home cluster, whereas the remaining one are labeled as not home.
+
+### *2 - Classification:*
+
+Now that we have labeled clusters, we can use a classifier
 
 <p style="text-align:center;"><img src="assets/part1/prediction_test.png" style="width: 50%"/></p>
 

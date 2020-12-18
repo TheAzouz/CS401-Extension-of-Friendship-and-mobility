@@ -84,7 +84,7 @@ From the plot above, we can draw some conclusions :
     - If this difference is negative : people are more likely to checkin in the place in a week end day
     - The absolute value gives us the magnitude of the absolute ratio  
 
-<p style="text-align:center;"><img src="assets/part3/img3-selim.png" style="width: 70%; height: 60%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img3-selim.png" style="width: 90%; height: 80%"/></p>
 
 
 - After observing the figure, we conclude that people tend to meet their friends more in work or study places during the
@@ -109,9 +109,9 @@ From the plot above, we can draw some conclusions :
   day or at night.  
   We use the equation below to compute the ratios:  
 
-<p style="text-align:center;"><img src="assets/part3/latex2-selim.jpg" style="width: 90%; height: 80%"/></p>
+<p style="text-align:center;"><img src="assets/part3/latex2-selim.jpg" style="width: 70%; height: 70%"/></p>
 
-<p style="text-align:center;"><img src="assets/part3/img5-selim.png" style="width: 70%; height: 60%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img5-selim.png" style="width: 90%; height: 80%"/></p>
 
 - We can see that friends are more likely to meet during the day to study or work. Moreover, they are more likely to
   meet at night to have night, even if the difference is small.

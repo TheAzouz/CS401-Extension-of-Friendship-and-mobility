@@ -84,7 +84,7 @@ From the plot above, we can draw some conclusions :
     - If this difference is negative : people are more likely to checkin in the place in a week end day
     - The absolute value gives us the magnitude of the absolute ratio  
 
-<p style="text-align:center;"><img src="assets/part3/img3-selim.png" style="width: 90%; height: 80%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img3-selim.png" style="width: 100%; height: 100%"/></p>
 
 
 - After observing the figure, we conclude that people tend to meet their friends more in work or study places during the

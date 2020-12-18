@@ -7,14 +7,12 @@ title: Ras_A_Ras
 # **I - Discretization Testing:**
 
 In this part, we will test the performance of the home localization method proposed by the paper. We will compute the
-distance between localized homes, and the known homes of users. We will use a different dataet from the one used in the
+distance between localized homes, and the known homes of users. We will use a different dataset from the one used in the
 paper, as there were not labeled check-ins.`
 
 ## *1 - True Home Location:*
 
-We first start by defining the true homes of users. Therefore, we only keep users whose checkins with home label that
-have a standard deviation of distance from the average home location less than a hundred meters. Then for the users
-left, we compute the home location as the average of the locations of check-ins labeled as home.
+We first start by selecting the homes of users with low variance. This is done by computing the standard deviation and mean of latitude and longitude of each user's check-ins labeled as Home. Then, we construct two points by respectively substracting and adding the standard deviation from the mean of the latitude and longitude coordinates. If this distance is smaller than 100m, we can be confident about the home location.
 
 ## *2 - Discretization:*
 
@@ -45,12 +43,27 @@ order of thousands of kilometers.
 <p style="text-align:center;"><img src="assets/part1/discretization_test_CDF.png" style="width: 50%"/></p>
 
 In fact, the paper claims that their method reaches 85% accuracy through manual verification. Nevertheless, we see that
-this does not apply to our dataset. Indeed, we need to tolerate distances up to 8'305km, which is larger than Europe.
+this does not apply to Foursquare dataset. Indeed, we need to tolerate distances up to 8'305km, which is larger than Europe.
 
 In the following section, we will try to use Machine Learning methods to find the homes of users, and we will compare our
 solution to the method proposed by the paper in terms of performance on the same dataset.
 
 # **Header 2**
+
+## *1 - Method:*
+
+### *1 - Feature engineering 
+
+In order to predict users' home location, we based our work on the paper `Fine-scale prediction of people's home location using social media footprints` by H.Kavak et al. They used DBSCAN unsupervised density-based clustring algorithm which creates clusters of points that can be connected to each other within a given radius. The clustering is performed on each user's check-ins. This is equivalent to the discretization approach done in Friendship and Mobility paper. 
+
+Later, authors created the following mobilitiy features for each cluster:
+
+- Checkin Ratio (CR): It's the ratio of check-ins per cluster
+- Checkin During Midnight (MR): In this feature, we consider only the checkins between 00 am and 5 am and compute the checkin ratio per cluster
+- Last Checkin of the day (EDR): We consider only the last check-in of the day happeninig befor 3 am and compute the ratio over the cluster. This feature suggests that the last checkin of the day is most likely coming from home.
+- Last Checkin with inactive midnight: Similarely to the previous feature with the exception that we drop the last checkin if it is after midnight
+- PageRank and ReversePageRank:  These features measure the importance of cluster based on the time made between each transition.
+
 
 <p style="text-align:center;"><img src="assets/part1/prediction_test.png" style="width: 50%"/></p>
 

@@ -42,7 +42,7 @@ Then, we visualize the distribution of distances.
 
 
 We see that the distribution follows a power law that can be approximated by:
-<p style="text-align:center;"><img src="assets/part1/powerlaw.jpeg" style="width: 10%; height: 10%"/></p>
+<p style="text-align:center;"><img src="assets/part1/powerlaw.jpeg" style="width: 40%; height: 40%"/></p>
 
 This indicates that there are users whose predicted home location is far by orders of magnitude from the original actual
 home location.

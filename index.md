@@ -1,4 +1,6 @@
-![yep](/assets/too-busy-coding.jpeg)
+![yep](assets/too-busy-coding.jpeg)
+
+<p style="text-align:center;"><img src="assets/too-busy-coding.jpeg" alt="Logo"></p>
  
 ## Welcome to GitHub Pages
 
@@ -31,14 +33,14 @@ We begin by getting the probability of distribution for two different datasets :
 the checkins and dataset where we only study checkins made with friends. In both cases, we only study users who checked
 in at least once in their homes and assume their home is located at the average of checkins labeled with
 home `Home (private)`. We plot (loglog) the distribution for both datasets as a function from the distance from home and
-try to describe the case where a user only moves to meet friends with a function of the type : ![](/assets/part3/latex-selim.jpg)
+try to describe the case where a user only moves to meet friends with a function of the type : ![](assets/part3/latex-selim.jpg)
 
-![](/assets/part3/img1-selim.png)  
+![](assets/part3/img1-selim.png)  
 From the plot above, we can draw some conclusions :
 
 - After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis
   as a function of the distance from home:  
-![](/assets/part3/latex0-selim.jpg)
+![](assets/part3/latex0-selim.jpg)
 - We notice a change in the slope at a distance of approximately 20km distance from home. This behavior is similar to
   the one described in the paper 'Friendship and Mobility: User Movement In Location-Based Social Networks' (figure 1)
   .  
@@ -69,7 +71,7 @@ From the plot above, we can draw some conclusions :
 
 ### i) Day of the week checkin patterns
 
-![](/assets/part3/img2-selim.png)
+![](assets/part3/img2-selim.png)
 
 - After computing the probability for checking in a certain place as a function of the day type, we conclude that people
   are the most likely to be studying. This observation can be explained by the fact that students are the most likely to
@@ -80,14 +82,14 @@ From the plot above, we can draw some conclusions :
       -Divide probabilities that happened in work day by 5 -Divide probabilities that happened in week end day by 2
     - Get ratio of results found
     - The final equation we find for each place is :  
-![](/assets/part3/latex-selim1.jpg)
+![](assets/part3/latex-selim1.jpg)
 
 - In the end:
     - If this difference is positive : people are more likely to checkin in the place in a working day
     - If this difference is negative : people are more likely to checkin in the place in a week end day
     - The absolute value gives us the magnitude of the absolute ratio  
 
-![](/assets/part3/img3-selim.png)
+![](assets/part3/img3-selim.png)
 
 - After observing the figure, we conclude that people tend to meet their friends more in work or study places during the
   week. This can be explained by the fact that people usually have their coworkers and classmates as friends on social
@@ -102,7 +104,7 @@ From the plot above, we can draw some conclusions :
 
 - Now we move to studying the times of the day friends are the most likely to meet.  
 
-![](/assets/part3/img4-selim.png)
+![](assets/part3/img4-selim.png)
 
 - We first notice that :
     - The biggest probability of checking in with friends during day occurs during studying
@@ -110,9 +112,9 @@ From the plot above, we can draw some conclusions :
 - Then, we do a similar processing work than the one we did in the previous part : we compute the ratio of checkins in
   day or at night.  
   We use the equation below to compute the ratios:  
-![](/assets/part3/latex2-selim.jpg)
+![](assets/part3/latex2-selim.jpg)
 
-![](/assets/part3/img5-selim.png)
+![](assets/part3/img5-selim.png)
 
 - We can see that friends are more likely to meet during the day to study or work. Moreover, they are more likely to
   meet at night to have night, even if the difference is small.

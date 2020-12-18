@@ -110,7 +110,7 @@ From the plot above, we can draw some conclusions :
 - Then, we do a similar processing work than the one we did in the previous part : we compute the ratio of checkins in
   day or at night.  
   We use the equation below to compute the ratios:  
-![](/assets/latex-selim2.jpg)
+![](/assets/latex2-selim.jpg)
 
 ![](/assets/img5-selim.png)
 

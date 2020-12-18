@@ -1,19 +1,8 @@
 ---
 title: Ras_A_Ras
 ---
-
-![yep](assets/too-busy-coding.jpeg)
-
 <p style="text-align:center;"><img src="assets/too-busy-coding.jpeg" alt="Logo"></p>
  
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/TheAzouz/Project_ADA.github.io/edit/gh-pages/index.md) to maintain
-and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in
-your site, from the content in your Markdown files.
-
 # **Header 1**
 
 # **Header 2**
@@ -37,15 +26,15 @@ We begin by getting the probability of distribution for two different datasets :
 the checkins and dataset where we only study checkins made with friends. In both cases, we only study users who checked
 in at least once in their homes and assume their home is located at the average of checkins labeled with
 home `Home (private)`. We plot (loglog) the distribution for both datasets as a function from the distance from home and
-try to describe the case where a user only moves to meet friends with a function of the type : ![](assets/part3/latex-selim.jpg)
+try to describe the case where a user only moves to meet friends with a function of the type : <p><img src="(assets/part3/latex-selim.jpg" style="width: 70%; height: 70%"/></p>
 
-<p style="text-align:center;"><img src="assets/part3/img1-selim.png" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img1-selim.png" style="width: 90%; height: 80%"/></p>
 
 From the plot above, we can draw some conclusions :
 
 - After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis
   as a function of the distance from home:  
-<p style="text-align:center;"><img src="assets/part3/latex0-selim.jpg" /></p>
+<p style="text-align:center;"><img src="assets/part3/latex0-selim.jpg" style="width: 70%; height: 70%"/></p>
 
 - We notice a change in the slope at a distance of approximately 20km distance from home. This behavior is similar to
   the one described in the paper 'Friendship and Mobility: User Movement In Location-Based Social Networks' (figure 1).  
@@ -75,7 +64,7 @@ From the plot above, we can draw some conclusions :
 
 ### i) Day of the week checkin patterns
 
-<p style="text-align:center;"><img src="assets/part3/img2-selim.png" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img2-selim.png" style="width: 80%; height: 60%"/></p>
 
 - After computing the probability for checking in a certain place as a function of the day type, we conclude that people
   are the most likely to be studying. This observation can be explained by the fact that students are the most likely to
@@ -88,14 +77,14 @@ From the plot above, we can draw some conclusions :
     - Get ratio of results found
     - The final equation we find for each place is :
     
-<p style="text-align:center;"><img src="assets/part3/latex-selim1.jpg"/></p>
+<p style="text-align:center;"><img src="assets/part3/latex-selim1.jpg" style="width: 70%; height: 70%"/></p>
 
 - In the end:
     - If this difference is positive : people are more likely to checkin in the place in a working day
     - If this difference is negative : people are more likely to checkin in the place in a week end day
     - The absolute value gives us the magnitude of the absolute ratio  
 
-<p style="text-align:center;"><img src="assets/part3/img3-selim.png" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img3-selim.png" style="width: 70%; height: 60%"/></p>
 
 
 - After observing the figure, we conclude that people tend to meet their friends more in work or study places during the
@@ -111,7 +100,7 @@ From the plot above, we can draw some conclusions :
 
 - Now we move to studying the times of the day friends are the most likely to meet.  
 
-<p style="text-align:center;"><img src="assets/part3/img4-selim.png" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img4-selim.png" style="width: 90%; height: 80%"/></p>
 
 - We first notice that :
     - The biggest probability of checking in with friends during day occurs during studying
@@ -120,9 +109,9 @@ From the plot above, we can draw some conclusions :
   day or at night.  
   We use the equation below to compute the ratios:  
 
-<p style="text-align:center;"><img src="assets/part3/latex2-selim.jpg"/></p>
+<p style="text-align:center;"><img src="assets/part3/latex2-selim.jpg" style="width: 90%; height: 80%"/></p>
 
-<p style="text-align:center;"><img src="assets/part3/img5-selim.png" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img5-selim.png" style="width: 70%; height: 60%"/></p>
 
 - We can see that friends are more likely to meet during the day to study or work. Moreover, they are more likely to
   meet at night to have night, even if the difference is small.

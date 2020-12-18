@@ -27,6 +27,9 @@ Some of our data is not provided in the repository because of its large size. It
 found [here](https://drive.google.com/drive/folders/1POXvWQgKXmzLTpDJli-bqfKlldvg4i4n). These files are to be downloaded
 and places under `data/`.
 
+The data was pre-processed. Our data is from Foursquare. The raw files are `dataset_WWW_Checkins_anonymized.txt`
+and `raw_POIs.txt`. They were merged to create `foursquare_checkin_data.csv.zip`.
+
 ## Dependencies:
 
 Our code uses the standard Conda packages. In addition, we use [pandarellel](https://pypi.org/project/pandarallel/),
@@ -36,7 +39,8 @@ Our code uses the standard Conda packages. In addition, we use [pandarellel](htt
 ## Group Members Contribution:
 
 Each member focused mainly on:
+
 - Ayman: testing the methods.
-- Selim: patterns in friends meetups
-- Rami: Explore machine learning methods
-There was also a lot of contribution in one another's notebooks to make the work evenly spread between team members.
+- Selim: patterns in friends meetups and data pre-processing
+- Rami: Explore machine learning methods There was also a lot of contribution in one another's notebooks to make the
+  work evenly spread between team members.

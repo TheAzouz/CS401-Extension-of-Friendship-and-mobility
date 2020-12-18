@@ -41,11 +41,10 @@ From the plot above, we can draw some conclusions :
 
 - After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis
   as a function of the distance from home:  
-![](assets/part3/latex0-selim.jpg)
 <p style="text-align:center;"><img src="assets/part3/latex0-selim.jpg" /></p>
+
 - We notice a change in the slope at a distance of approximately 20km distance from home. This behavior is similar to
-  the one described in the paper 'Friendship and Mobility: User Movement In Location-Based Social Networks' (figure 1)
-  .  
+  the one described in the paper 'Friendship and Mobility: User Movement In Location-Based Social Networks' (figure 1).  
   However :
     - The distance from home where the shift happened is different (20km here vs 100km in the paper)
     - The slope are different than the ones described in the paper. In fact, while the slope is smaller for small
@@ -73,7 +72,7 @@ From the plot above, we can draw some conclusions :
 
 ### i) Day of the week checkin patterns
 
-![](assets/part3/img2-selim.png)
+<p style="text-align:center;"><img src="assets/part3/img2-selim.png" style="width: 70%; height: 70%"/></p>
 
 - After computing the probability for checking in a certain place as a function of the day type, we conclude that people
   are the most likely to be studying. This observation can be explained by the fact that students are the most likely to
@@ -81,17 +80,20 @@ From the plot above, we can draw some conclusions :
 
 - Then, to be able to draw further conclusions, we do some processing to our results:
     - Get probability/day :
-      -Divide probabilities that happened in work day by 5 -Divide probabilities that happened in week end day by 2
+     - Divide probabilities that happened in work day by 5
+     - Divide probabilities that happened in week end day by 2
     - Get ratio of results found
-    - The final equation we find for each place is :  
-![](assets/part3/latex-selim1.jpg)
+    - The final equation we find for each place is :
+    
+<p style="text-align:center;"><img src="assets/part3/latex-selim1.jpg"/></p>
 
 - In the end:
     - If this difference is positive : people are more likely to checkin in the place in a working day
     - If this difference is negative : people are more likely to checkin in the place in a week end day
     - The absolute value gives us the magnitude of the absolute ratio  
 
-![](assets/part3/img3-selim.png)
+<p style="text-align:center;"><img src="assets/part3/img3-selim.png" style="width: 70%; height: 70%"/></p>
+
 
 - After observing the figure, we conclude that people tend to meet their friends more in work or study places during the
   week. This can be explained by the fact that people usually have their coworkers and classmates as friends on social

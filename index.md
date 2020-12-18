@@ -35,7 +35,7 @@ From the plot above, we can draw some conclusions :
 
 - After fitting the curves, we get the approximated equtions for the probability distribution of the number of checkis
   as a function of the distance from home:  
-<p style="text-align:center;"><img src="assets/part3/latex0-selim.jpg" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/latex0-selim.jpg" style="width: 10%; height: 10%"/></p>
 
 - We notice a change in the slope at a distance of approximately 20km distance from home. This behavior is similar to
   the one described in the paper 'Friendship and Mobility: User Movement In Location-Based Social Networks' (figure 1).  
@@ -65,7 +65,7 @@ From the plot above, we can draw some conclusions :
 
 ### i) Day of the week checkin patterns
 
-<p style="text-align:center;"><img src="assets/part3/img2-selim.png" style="width: 80%; height: 60%"/></p>
+<p style="text-align:center;"><img src="assets/part3/img2-selim.png" style="width: 80%; height: 40%"/></p>
 
 - After computing the probability for checking in a certain place as a function of the day type, we conclude that people
   are the most likely to be studying. This observation can be explained by the fact that students are the most likely to
@@ -78,7 +78,7 @@ From the plot above, we can draw some conclusions :
     - Get ratio of results found
     - The final equation we find for each place is :
     
-<p style="text-align:center;"><img src="assets/part3/latex-selim1.jpg" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/latex-selim1.jpg" style="width: 40%; height: 40%"/></p>
 
 - In the end:
     - If this difference is positive : people are more likely to checkin in the place in a working day

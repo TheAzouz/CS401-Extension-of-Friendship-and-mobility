@@ -49,7 +49,7 @@ solution to the method proposed by the paper in terms of performance on the same
 
 ## *1 - Method:*
 
-## *i - Feature engineering:*
+## *i - Feature engineering:*
 
 In order to predict users' home location, we based our work on the paper `Fine-scale prediction of people's home location using social media footprints` by H.Kavak et al. They used DBSCAN unsupervised density-based clustring algorithm which creates clusters of points that can be connected to each other within a given radius. The clustering is performed on each user's check-ins. This is equivalent to the discretization approach done in Friendship and Mobility paper. 
 
@@ -63,7 +63,7 @@ Later, the authors created the following mobilitiy features for each cluster:
 
 After creating these feature for each cluster, we label each cluster with the most home tags as a home cluster, whereas the remaining one are labeled as not home.
 
-## *ii - Classification:*
+## *ii - Classification:*
 
 - Now that we have labeled clusters, we can use a classifier to predict the home location. While authors of the paper `Fine-scale prediction of people's home location using social media footprints` only use a Sector Vector Machine Classifier SVMC, we buildt three different models and compared them one to another on two different datasets.
 - After visualizing the distribution of the location of check-ins for the Foursquare, Gowalla and Brightkite datasets, we noticed that most of the check-ins in Gowalla and Brightkite occur in the USA while they are more distributed over the world for the Foursquare dataset. 

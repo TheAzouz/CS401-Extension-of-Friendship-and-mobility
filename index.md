@@ -70,7 +70,7 @@ After creating these feature for each cluster, we label each cluster with the mo
 - Knowing this, we chose to compare models on the dataset with check-ins only in USA, and on the whole dataset.
 We build a SVMC model, a Neural Network NN and a random forest classifier and compared their scores. The SVMC was build with a linear activation function, while the Neural Network consisted of 5 hidden layers. Each hidden layer was followed by a dropout to avoid overfitting.
 - After running the models on the two different sets, we found the following resluts :
-<p style="text-align:center;"><img src="assets/part3/rami.png" style="width: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/rami.png" style="width: 60%; height: 60%"/></p>
 - These results show that the f1 score is overall better when we only consider check-ins made in one same country. This can be explained by the fact that the social behaviour is different around the world. Working on just a country reduces the number of parameters to be taken into account and therefore lets the models perform better. We can make the hypothesis that if we restrained our work to just some states (New York or Chicago for example), our f1 score would become even better.
 - Finally, the SVMC performed better than other models even if the activation function was just linear. More time and computational power would have let us create and perform better models
 

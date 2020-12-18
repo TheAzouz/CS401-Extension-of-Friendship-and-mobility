@@ -1,6 +1,6 @@
 # Applied Data Analysis (ADA)
 ## Group work for P4 :
-
+In this work, we do....
 
 ## Overview of files :
 - `data` : folder containing all the data we worked with

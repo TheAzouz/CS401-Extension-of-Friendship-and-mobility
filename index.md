@@ -7,7 +7,7 @@ title: Ras_A_Ras
 
 # **Header 2**
 
-# **III) Checkin patterns between friends:**
+# **III - Checkin patterns between friends:**
 
 In this part, we seek to finding some meeting patterns between friends. We say two friends have met if they checked in
 the same place with at most one hour difference.  
@@ -20,7 +20,7 @@ We will do three tasks in this part :
   some friends are to meet in a certain place depending on the whether it s a work day or week end day. Then, we will
   study the distribution of checkins in places depending on the time of the day (day or night).
 
-## *1) Checkin patterns and ditribution :*
+## *1 - Checkin patterns and ditribution :*
 
 We begin by getting the probability of distribution for two different datasets : dataset where we take into account all
 the checkins and dataset where we only study checkins made with friends. In both cases, we only study users who checked
@@ -51,7 +51,7 @@ From the plot above, we can draw some conclusions :
   p-value of 0.0, we strongly reject the hypothesis and we conclude that even if the general behavior seems the same,
   the quantitative results show the contary.
 
-## *2) Place checkin patterns :*
+## *2 - Place checkin patterns :*
 
 - For the two remaining parts, we will only be working with the dataset containing only checkins with friends. We make
   this choice because the goal of the paper is to predict mobility and see the influence of friends.
@@ -63,7 +63,7 @@ From the plot above, we can draw some conclusions :
     - Time of the day
     - Day of the week
 
-### i) Day of the week checkin patterns
+### i - Day of the week checkin patterns
 
 <p style="text-align:center;"><img src="assets/part3/img2-selim.png" style="width: 80%; height: 40%"/></p>
 
@@ -97,7 +97,7 @@ From the plot above, we can draw some conclusions :
 - Finally, people tend to spend their day working and studying, and then spend their evening and night in diverting
   places (eating, having drinks.
 
-### ii) Period of the day checkin patterns:
+### ii - Period of the day checkin patterns:
 
 - Now we move to studying the times of the day friends are the most likely to meet.  
 
@@ -117,20 +117,3 @@ From the plot above, we can draw some conclusions :
 - We can see that friends are more likely to meet during the day to study or work. Moreover, they are more likely to
   meet at night to have night, even if the difference is small.
 - We can also conlude that most checkins happen to be during the day and that people tend less to checkin at night.
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in
-your [repository settings](https://github.com/TheAzouz/Project_ADA.github.io/settings). The name of this theme is saved
-in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/)
-or [contact support](https://github.com/contact) and we’ll help you sort it out.

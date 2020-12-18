@@ -80,8 +80,8 @@ From the plot above, we can draw some conclusions :
 
 - Then, to be able to draw further conclusions, we do some processing to our results:
     - Get probability/day :
-     - Divide probabilities that happened in work day by 5
-     - Divide probabilities that happened in week end day by 2
+        - Divide probabilities that happened in work day by 5
+        - Divide probabilities that happened in week end day by 2
     - Get ratio of results found
     - The final equation we find for each place is :
     
@@ -108,7 +108,7 @@ From the plot above, we can draw some conclusions :
 
 - Now we move to studying the times of the day friends are the most likely to meet.  
 
-![](assets/part3/img4-selim.png)
+<p style="text-align:center;"><img src="assets/part3/img4-selim.png" style="width: 70%; height: 70%"/></p>
 
 - We first notice that :
     - The biggest probability of checking in with friends during day occurs during studying
@@ -116,9 +116,10 @@ From the plot above, we can draw some conclusions :
 - Then, we do a similar processing work than the one we did in the previous part : we compute the ratio of checkins in
   day or at night.  
   We use the equation below to compute the ratios:  
-![](assets/part3/latex2-selim.jpg)
 
-![](assets/part3/img5-selim.png)
+<p style="text-align:center;"><img src="assets/part3/latex2-selim.jpg"/></p>
+
+<p style="text-align:center;"><img src="assets/part3/img5-selim.png" style="width: 70%; height: 70%"/></p>
 
 - We can see that friends are more likely to meet during the day to study or work. Moreover, they are more likely to
   meet at night to have night, even if the difference is small.

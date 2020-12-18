@@ -76,7 +76,14 @@ We build a SVMC model, a Neural Network NN and a random forest classifier and co
 
 ## *iii - Prediction testing:*
 
-
+<div class="clearfix">
+  <div class="img-container">
+  <img src="assets/part1/prediction_test.png" style="width:50%">
+  </div>
+  <div class="img-container">
+  <img src="assets/part1/prediction_test_CDF.png" style="width:50%">
+  </div>
+</div>
 
 <p style="text-align:center;"><img src="assets/part1/prediction_test.png" style="width: 50%"/></p>
 

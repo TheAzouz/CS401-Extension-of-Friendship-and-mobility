@@ -31,7 +31,7 @@ We use this method to find home locations of the users of the new dataset.
 We start by computing the distance between the true home location, and the home location provided by discretization.
 Then, we visualize the distribution of distances.
 
-<p style="text-align:center;"><img src="assets/part1/discretization_test.png" style="width: 55%"/></p>
+<p style="text-align:center;"><img src="assets/part1/discretization_test.png" style="width: 50%"/></p>
 
 We see that the distribution follows a power law that can be approximated by:
 <p style="text-align:center;"><img src="assets/part1/powerlaw.jpeg"/></p>
@@ -52,9 +52,9 @@ solution to the method proposed by the paper in terms of performance on the same
 
 # **Header 2**
 
-<p style="text-align:center;"><img src="assets/part1/prediction_test.png" style="width: 60%"/></p>
+<p style="text-align:center;"><img src="assets/part1/prediction_test.png" style="width: 50%"/></p>
 
-<p style="text-align:center;"><img src="assets/part1/prediction_test_CDF.png" style="width: 60%"/></p>
+<p style="text-align:center;"><img src="assets/part1/prediction_test_CDF.png" style="width: 50%"/></p>
 
 # **III - Checkin Patterns Between Friends:**
 

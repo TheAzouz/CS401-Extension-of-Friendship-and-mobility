@@ -110,7 +110,7 @@ From the plot above, we can draw some conclusions :
   day or at night.  
   We use the equation below to compute the ratios:  
 
-<p style="text-align:center;"><img src="assets/part3/latex2-selim.jpg" style="width: 70%; height: 70%"/></p>
+<p style="text-align:center;"><img src="assets/part3/latex2-selim.jpg" style="width: 40%; height: 40%"/></p>
 
 <p style="text-align:center;"><img src="assets/part3/img5-selim.png" style="width: 90%; height: 80%"/></p>
 

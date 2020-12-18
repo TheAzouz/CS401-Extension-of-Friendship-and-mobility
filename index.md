@@ -48,7 +48,7 @@ this does not apply to Foursquare dataset. Indeed, we need to tolerate distances
 In the following section, we will try to use Machine Learning methods to find the homes of users, and we will compare our
 solution to the method proposed by the paper in terms of performance on the same dataset.
 
-# **Header 2**
+# **Home locations predictions**
 
 ## *1 - Method:*
 
@@ -68,7 +68,14 @@ After creating these feature for each cluster, we label each cluster with the mo
 
 ### *2 - Classification:*
 
-Now that we have labeled clusters, we can use a classifier
+- Now that we have labeled clusters, we can use a classifier to predict the home location. While authors of the paper `Fine-scale prediction of people's home location using social media footprints` only use a Sector Vector Machine Classifier SVMC, we buildt three different models and compared them one to another on two different datasets.
+- After visualizing the distribution of the location of check-ins for the Foursquare, Gowalla and Brightkite datasets, we noticed that most of the check-ins in Gowalla and Brightkite occur in the USA while they are more distributed over the world for the Foursquare dataset. 
+- Knowing this, we chose to compare models on the dataset with check-ins only in USA, and on the whole dataset.
+We build a SVMC model, a Neural Network NN and a random forest classifier and compared their scores. The SVMC was build with a linear activation function, while the Neural Network consisted of 5 hidden layers. Each hidden layer was followed by a dropout to avoid overfitting.
+- After running the models on the two different sets, we found those resluts :
+<p style="text-align:center;"><img src="assets/part2/results.png" style="width: 50%"/></p>
+
+
 
 <p style="text-align:center;"><img src="assets/part1/prediction_test.png" style="width: 50%"/></p>
 
